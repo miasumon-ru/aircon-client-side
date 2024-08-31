@@ -76,7 +76,7 @@ const Slider = () => {
 
                     <h1 className="text-xl lg:text-6xl "> We Provide Best AC Repair <br /> Services </h1>
 
-                    <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet lorem sit <br /> clita duo justo erat amet</p>
+                    <p className="text-sm md:text-xl" >Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet lorem sit <br /> clita duo justo erat amet</p>
                 
                 </div>
 
@@ -97,9 +97,9 @@ const Slider = () => {
 
                 <div className='text-white'>
 
-                    <h1 className="text-2xl lg:text-6xl "> We Provide Best AC Repair <br /> Services </h1>
+                    <h1 className="text-[15px] lg:text-6xl "> Quality Heating & Air <br /> Condition Services </h1>
 
-                    <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet lorem sit <br /> clita duo justo erat amet</p>
+                    <p className="text-sm md:text-xl">Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet lorem sit <br /> clita duo justo erat amet</p>
                 
                 </div>
 
