@@ -4,6 +4,9 @@ import axios from "axios";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+import image1 from '../../../assets/carousel-1.jpg'
+import image2 from '../../../assets/carousel-2.jpg'
+
 
 // Import Swiper styles
 import 'swiper/css';
@@ -59,11 +62,11 @@ const Slider = () => {
             className="mySwiper"
         >
          
-         {
-            sliders.map((slider, index)=> <SwiperSlide className='relative' key={index} >
+        
+             <SwiperSlide className='relative'  >
 
             <div>
-                <img  className='rounded-lg' src={slider.img} alt="" />
+                <img  className='rounded-lg' src={image1} alt="" />
             </div>
 
             <div className='absolute'>
@@ -82,8 +85,31 @@ const Slider = () => {
              
             </div>
 
-        </SwiperSlide>)
-         }
+        </SwiperSlide>
+             <SwiperSlide className='relative'  >
+
+            <div>
+                <img  className='rounded-lg' src={image2} alt="" />
+            </div>
+
+            <div className='absolute'>
+
+
+                <div className='text-white'>
+
+                    <h1 className="text-2xl lg:text-6xl "> We Provide Best AC Repair <br /> Services </h1>
+
+                    <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet lorem sit <br /> clita duo justo erat amet</p>
+                
+                </div>
+
+               
+                    <button className='btn mt-10 text-white bg-orange-500 hover:bg-blue-800 '> Explore More </button>
+             
+            </div>
+
+        </SwiperSlide>
+         
 
         
 
